@@ -1,0 +1,50 @@
+#text
+{
+    text-align: center;
+}
+
+.divfoot1
+{
+    display: inline-block;
+    height: 20px;
+    margin: 10px;
+    background-color: #1A9945;
+    padding: 3px;
+}
+
+.divfoot1 a
+{
+    text-decoration: none; 
+    color: #2A00FF;
+}
+
+
+#iframe-head
+{
+    width: 1000%;
+    border: 0;
+    margin: 0;
+    height: 300px;
+}
+
+#iframe-foot
+{
+    width: 100%;
+    border: 0;
+    margin: 0;
+    height: 300px;
+}
+
+#color8
+{
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: solid 2px white;
+    border-radius: 30px;
+    font-family: arial;
+}
+
+#color8:hover
+{
+    color:#010101;
+}

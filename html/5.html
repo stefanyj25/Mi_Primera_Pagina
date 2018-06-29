@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta  charset="UTF-8">
+	<title>Reusalos</title>
+	<!--this is of second form for use css-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <iframe src="../templetes/menu.html" id="iframe-head"></iframe>
+</head>
+
+<body>
+  <div id="centro">
+  	<h1 id="color">CONTACTOS</h1>
+    <img src="../img/logo.png" WIDTH="400">
+  <div id="container">
+
+	<form>
+
+    <p>
+      <input type="radio" name="servicio" value="cliente" cheked="">Cliente
+      <input type="radio" name="servicio" value="particular">Particular
+    </p>
+
+    <p> 
+      <label>Motivo del mensaje?</label>
+    </p>
+
+    <p>
+      <select name="motivo">
+        <option>Quejas</option>
+        <option>Sugerencias</option>
+        <option>Soporte tecnico</option>
+        <option>Nuevo Servicio</option>
+        <option selected="selected">--Seleccionar--</option>
+      </select>
+    </p>
+
+		<p>
+      <div id="color3">
+				<label> Nombre:</label>
+			</div>
+			<input type="text" name="nombre"/>
+		</p>
+
+		<p>
+			<div id="color3">
+				<label>Email:</label>
+			</div>
+      <input type="text" name="email"/>
+    </p>
+
+    <p id="color3">
+      <label>Deja Tu Comentario..</label>
+    </p>
+
+    <p id="color3">
+      <textarea name="comentario" cols="45" rows="10"></textarea>
+    </p>
+
+    <p id="color4">
+      <input id="color4" type="submit" value="Enviar mensaje"/>
+      <input id="color3" type="reset" value="Limpiar datos">
+    </p>
+
+    </form>
+  </div>
+</div>
+<iframe src="../templetes/PIE DE PAGINA.html" id="iframe-foot"></iframe>
+</body>
+<!--
+CSS 
+Style sheet cascading
+Forma 1: Directamente en la etiqueta
+-->
